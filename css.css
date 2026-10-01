@@ -1,0 +1,156 @@
+/* =========================
+   HEADER / TITLE BACKGROUND
+========================= */
+
+#title {
+    background: linear-gradient(300deg, #ff4b5c, #ff8fa3, #ffd1dc);
+    background-size: 180% 180%;
+    color: white;
+    padding: 40px 0;
+}
+
+/* Make the heading white */
+#title h2 {
+    color: white !important;
+}
+
+/* =========================
+   HEADER BUTTONS
+========================= */
+
+#title .btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+#title .btn-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+#title .btn-outline-secondary {
+    color: white;
+    border-color: white;
+}
+
+#title .btn-outline-secondary:hover {
+    background-color: white;
+    color: #212529;
+}
+
+
+/* =========================
+   PHONE IMAGE
+========================= */
+
+#title img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================
+   FEATURES
+========================= */
+
+#features {
+    padding: 60px 0;
+}
+
+.icon-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+/* =========================
+   TESTIMONIAL
+========================= */
+
+#testimonial {
+    padding: 50px 0;
+}
+
+#testimonial h2 {
+    font-size: 2rem;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* =========================
+   PRICING
+========================= */
+
+#pricing {
+    padding: 60px 5%;
+}
+
+.pricing-header {
+    margin-bottom: 30px;
+}
+
+#pricing .card {
+    height: 100%;
+}
+
+#pricing .pricing-card-title {
+    font-size: 2.5rem;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+#footer {
+    background: #ff8fa3;
+    padding: 50px 5%;
+}
+
+#footer h5 {
+    color: white;
+}
+
+#footer a {
+    color: white !important;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #title h2 {
+        font-size: 2.5rem;
+    }
+
+    #title img {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #title h2 {
+        font-size: 2rem;
+    }
+
+    #testimonial h2 {
+        font-size: 1.5rem;
+    }
+
+}
